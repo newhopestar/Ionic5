@@ -38,6 +38,7 @@ ion-row {
         border-top: none;
         border-left: none;
         border-right: none;
+        font-size: 13px;
     }
     input:focus {
         outline: none !important;
@@ -47,6 +48,6 @@ ion-row {
 ion-footer{
     ion-button {
         margin: auto;
-        height: 39px;
+        height: 33px;
     }
 }

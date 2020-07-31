@@ -3,16 +3,36 @@
     position: absolute !important;
     bottom: 5px;
     right: 0;
+    color:#5c2b92;
  }
-
  .position-relative{
      position: relative;
  }
-
  .sign-des {
      margin-top: 20px;
      font-size: 11px;
+     padding-bottom: 40px;
+     color:#999999;
      a {
          text-decoration: underline;
      }
  }
+.sign-style {
+    color:#5c2b92;
+    font-size:17px;
+}
+.back-btn {
+    background-color:#5c2b92;
+    height:35px;
+    border-radius: 7px;
+    color:white;
+    font-size:14px;
+}
+.next-btn {
+    background-color:white;
+    border:1px solid #5c2b92 ;
+    height:35px;
+    border-radius: 7px;
+    color:#5c2b92;
+    font-size:14px;
+}

@@ -3,21 +3,22 @@
     <ion-buttons slot="start">
       <ion-back-button mode="md"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-center">Sign Up</ion-title>
+    <ion-title class="ion-text-center sign-style ">Sign Up</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-row class="ion-text-center">
-    <span class="sign-des">
-      Wammer Turns Sharing Fun Photos and Videos With Your Friends into a Game
+    <span class="sign-des full-width">
+      Wammer Turns Sharing Fun Photos and Videos<br>
+        With Your Friends into a Game
     </span>
   </ion-row>
 
   <ion-row>
     <form class="full-width ion-padding signup-form">
-      <ion-row class="ion-margin-top ion-padding-top">
-        <input placeholder="First Name" type="text" class="full-width" />
+      <ion-row class="input-text-style">
+        <input placeholder="First Name" type="text" class="full-width input-text-style" />
       </ion-row>
       <ion-row class="ion-margin-top ion-padding-top">
         <input placeholder="Last Name" type="text" class="full-width" />
@@ -45,17 +46,17 @@
 <ion-footer mode="ios">
   <ion-row>
     <ion-col size="6">
-      <ion-row class="ion-padding-start ion-padding-end">
-        <ion-button color="primary" class="full-width" (click)="goBack()">
+      <ion-row class="ion-padding-start ion-padding-between">
+        <button class="full-width back-btn" (click)="goBack()">
           Back
-        </ion-button>
+        </button>
       </ion-row>
     </ion-col>
     <ion-col size="6">
-      <ion-row class="ion-padding-start ion-padding-end">
-        <ion-button fill="outline" class="full-width">
+      <ion-row class="ion-padding-end ion-padding-between">
+        <button class="full-width next-btn">
           Next
-        </ion-button>
+        </button>
       </ion-row>
     </ion-col>
   </ion-row>
